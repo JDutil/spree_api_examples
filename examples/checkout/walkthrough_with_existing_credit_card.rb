@@ -223,7 +223,6 @@ module Examples
           }
         )
 
-
         if response.status == 201
           client.succeeded "Added a line item."
         else
